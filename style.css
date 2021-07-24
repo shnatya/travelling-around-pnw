@@ -21,7 +21,7 @@ header p {
     
   }
   
-  .vertical-menu a {
+.vertical-menu a {
     font-size: 18px;
     background-color: #eee; /* Grey background color */
     color: black; /* Black text color */
@@ -30,13 +30,26 @@ header p {
     text-decoration: none; /* Remove underline from links */
   }
   
-  .vertical-menu a:hover {
+.vertical-menu a:hover {
     background-color: #ccc; /* Dark grey background on mouse-over */
   }
   
-  .vertical-menu a.active {
+.vertical-menu a.active {
     font-size: 24px;
     background-color: #04AA6D; /* Add a green color to the "active/current" link */
     color: white;
     text-decoration: underline; /* Remove underline from links */
+  }
+
+img {
+        padding: 10px;
+        text-align: center;
+        width: 300px;
+        margin: auto;
+    
+        
+
+    /*margin-left: auto;
+    margin-right: auto;
+    display: inline;*/
   }
