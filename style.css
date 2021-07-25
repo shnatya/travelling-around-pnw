@@ -42,14 +42,22 @@ header p {
   }
 
 img {
-        padding: 10px;
-        text-align: center;
+        padding: 30px;
+        /*text-align: center;*/
         width: 300px;
-        margin: auto;
-    
-        
-
-    /*margin-left: auto;
-    margin-right: auto;
-    display: inline;*/
+        /*margin: auto;*/
+        margin: 0px 0px 55px 55px;
   }
+
+div.Anacortes-Info p {
+    padding: 30px;
+        /*text-align: center;*/
+        width: 300px;
+        /*margin: auto;*/
+        margin: 0px 0px 55px 55px;
+}
+#Anacortes-Pics {
+    float: right;
+   /* width: "200";*/
+  }
+
