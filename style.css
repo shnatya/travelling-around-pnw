@@ -41,23 +41,29 @@ header p {
     text-decoration: underline; /* Remove underline from links */
   }
 
+#Pics {
+    float: right;  
+  }
+
 img {
-        padding: 30px;
-        /*text-align: center;*/
-        width: 300px;
-        /*margin: auto;*/
-        margin: 0px 0px 55px 55px;
-  }
-
-div.Anacortes-Info p {
     padding: 30px;
-        /*text-align: center;*/
-        width: 300px;
-        /*margin: auto;*/
-        margin: 0px 0px 55px 55px;
-}
-#Anacortes-Pics {
-    float: right;
-   /* width: "200";*/
+    width: 300px;
+    margin: 0px 0px 0px 55px;
   }
 
+div#Info {
+    float: right;  
+  }
+
+div#Info p {
+    padding: 30px;
+    text-align: justify;
+    width: 300px;
+    margin: 0px 0px 55px 55px;
+    text-indent: 3ch;
+    line-height: 1.6;
+    font-size: 20px;
+    display: inline-block;
+    vertical-align:top;
+  
+}     
