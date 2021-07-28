@@ -11,15 +11,16 @@ function displayDate() {
     if (filter===0) {
         filter=1;
         b.textContent="Show description";
-        /*for (const element of info) {
-            info[element].style.visibility="hidden";}*/
-        info[0].style.visibility="hidden";
+        for (const element of info) {
+            element.style.visibility="hidden";}
+        /*info[0].style.visibility="hidden";*/
         
     }
     else {
         filter=0;
         b.textContent="Hide description";
-        info[0].style.visibility="visible";  
+        for (const element of info) {
+            element.style.visibility="visible";}  
     }
 }
 
