@@ -1,3 +1,26 @@
 const h2 = document.createElement("h2");
 h2.textContent = " ";
 document.querySelector("body").appendChild(h2);
+
+const b=document.getElementById("description");
+const info=document.getElementsByClassName("Info");
+b.addEventListener("click", displayDate);
+filter=0; 
+
+function displayDate() {
+    if (filter===0) {
+        filter=1;
+        b.textContent="Show description";
+        /*for (const element of info) {
+            info[element].style.visibility="hidden";}*/
+        info[0].style.visibility="hidden";
+        
+    }
+    else {
+        filter=0;
+        b.textContent="Hide description";
+        info[0].style.visibility="visible";  
+    }
+}
+
+

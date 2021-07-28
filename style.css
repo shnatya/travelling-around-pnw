@@ -9,6 +9,7 @@ header h1 {
     margin-left: 2.5em;
     margin-top: 0;
     margin-bottom: 0; /*do not separate the element from its neighbors*/
+    color: #04AA6D;
     
 }
 header p {
@@ -41,12 +42,46 @@ h3 {
    
 }
 
+button {
+    float:right;
+}
+
+img {
+    padding: 30px 30px 0px 30px;
+    width: 300px;
+    margin: 0px 0px 0px 55px;
+  }
+
+
+
+div.Info p {
+    padding: 30px;
+    text-align: justify;
+    width: 300px;
+    margin-left: 55px;
+    text-indent: 3ch;
+    line-height: 1.6;
+    font-size: 20px;
+    display: inline-block;
+    vertical-align:top;
+  
+}     
+
+div.Info a:hover, header a:hover {
+    background-color: rgb(215, 216, 206);
+}
+
+div.State {
+    background:rgb(180, 228, 174);
+    float: right;
+    margin-bottom: 3em;
+}
 
 .vertical-menu {
     position: fixed;
     left: 2;
     top: 0%;
-    width: 200px; /* Set a width if you like */
+    width: 200px; /* Set a width  */
     
   }
   
@@ -70,36 +105,5 @@ h3 {
     text-decoration: underline; /* Remove underline from links */
   }
 
-/*.Pics {
-    float: right;  
-  }
-  div.Info {
-    float: right;  
-  }*/
-
-img {
-    padding: 30px 30px 0px 30px;
-    width: 300px;
-    margin: 0px 0px 0px 55px;
-  }
 
 
-
-div.Info p {
-    padding: 30px;
-    text-align: justify;
-    width: 300px;
-    margin-left: 55px;
-    text-indent: 3ch;
-    line-height: 1.6;
-    font-size: 20px;
-    display: inline-block;
-    vertical-align:top;
-  
-}     
-
-div.State {
-    background:rgb(180, 228, 174);
-    float: right;
-    margin-bottom: 3em;
-}
