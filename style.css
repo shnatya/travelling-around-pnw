@@ -24,8 +24,10 @@ header p {
 h2 {
     /*text-align: center;*/
     color: white;
-    font-size: 36px;
-    margin-bottom: 0;  
+    font-size: 25px;
+    margin-bottom: 0; 
+    margin-top: 49px; 
+    margin-right: 10px;
     /*margin: 0; /*do not separate the element from its neighbors*/
     background-color: #04AA6D; 
     float: right;
@@ -37,20 +39,30 @@ h3 {
     font-size: 24px;
     padding: 1px;
     margin-left: 2em; 
-    margin-top: 2em;
-    background-color: rgb(230, 240, 88);
+    
+    margin:auto;
+    width: 50%;
+    
+    /*background-color: rgb(230, 240, 88);*/
    
+}
+
+div.container {
+    background-color: rgb(230, 240, 88);
+    margin-top: 3em;
 }
 
 button {
     
-        height: 50px;
-        width: 150px;
-        position: relative;
-        border: 2px solid rgb(15, 15, 15);
-        float: right;
-      }
-    
+    height: 30px;
+    width: 150px;
+    background-color: rgba(207, 218, 10, 0.2); /*last number is opacity of the button*/
+    position: fixed;
+    top: 2px;
+    right: 10px;
+    font-size: 16px;
+    border-radius: 25px;
+ }
 
 
 img {
@@ -75,7 +87,7 @@ div.Info p {
 }     
 
 div.Info a:hover, header a:hover {
-    background-color: rgb(195, 230, 191);
+    background-color: rgb(211, 223, 208);
 }
 
 div.State {

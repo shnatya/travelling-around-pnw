@@ -18,7 +18,6 @@ function displayDate() {
         for (const element of state) {
             element.style.height = "400px";
         }
-        /*info[0].style.visibility="hidden";*/
         
     }
     else {
